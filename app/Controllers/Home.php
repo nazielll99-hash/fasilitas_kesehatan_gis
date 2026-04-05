@@ -7,7 +7,8 @@ class Home extends BaseController
     public function index(): string
     {
         $data = [
-            'judul' => 'Home'
+            'judul' => 'Home' , 
+            'page' => 'v_home' ,
             ];
         return view('v_template_front_end' , $data);
     }
